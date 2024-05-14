@@ -44,11 +44,11 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('📍 Update Channel', url='https://t.me/NT_BOT_CHANNEL'),
+                InlineKeyboardButton('🥵 Update Channel', url='https://t.me/shetty_bots'),
             ],
             [
-                InlineKeyboardButton('👩‍💻 Developer', url='https://t.me/LISA_FAN_LK'),
-                InlineKeyboardButton('👥 Support Group', url='https://t.me/NT_BOTS_SUPPORT'),
+                InlineKeyboardButton('👩‍💻 Developer', url='https://t.me/jeevan_shetty'),
+                InlineKeyboardButton('👥 Support Group', url='https://t.me/shettyDiscus_Group'),
             ],
             [
                 InlineKeyboardButton('⛔️ Close', callback_data='cancel')
@@ -66,7 +66,7 @@ To upload a YouTube video, simply send me the YouTube link.
     
 Enjoy using the bot!
 
-   ©️ Channel : @NT_BOT_CHANNEL
+   ©️ Channel : @shetty_bots
     """
     message.reply_text(help_text)
 
